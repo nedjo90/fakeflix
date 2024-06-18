@@ -40,7 +40,6 @@ class MovieLittleCard extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    AddToFavoriteButton(movieId: movie.id),
                     RemoveFromFavoriteButton(movieId: movie.id)
                   ],
                 )

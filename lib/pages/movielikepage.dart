@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:movie_explorer/pages/utils/custombottomnavbar.dart';
 import 'package:movie_explorer/pages/utils/favoritemovie.dart';
@@ -9,6 +10,7 @@ class MovieLikePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
         backgroundColor: Colors.black,
         extendBody: true,
@@ -42,5 +44,4 @@ class MovieLikePage extends StatelessWidget{
         body: FavoriteMovie(),
         bottomNavigationBar: const CustomBottomNavBar());
   }
-
 }

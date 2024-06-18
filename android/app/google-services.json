@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052696179557",
+    "project_id": "myfakeflix",
+    "storage_bucket": "myfakeflix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052696179557:android:d6226d70a53bb1bcebe78c",
+        "android_client_info": {
+          "package_name": "com.example.movie_explorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASzf3DUB8ETqjgbyZ1W2QiN5bSbaMwu8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

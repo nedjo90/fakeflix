@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:movie_explorer/authenticationbloc/authentication_bloc.dart';
 import 'package:movie_explorer/pages/utils/moviepreview.dart';
 import 'package:movie_explorer/provider/homepagepositionprovider.dart';
 import 'package:provider/provider.dart';
@@ -36,9 +38,12 @@ class CustomBottomNavBar extends StatelessWidget{
               )),
           IconButton(
               onPressed: () {
+                BlocProvider.of<AuthenticationBloc>(context)
+                    .add(SignOut());
+                context.go('/Auth');
               },
               icon: const Icon(
-                Icons.person,
+                Icons.logout,
                 color: Colors.white,
                 size: 40,
               ))

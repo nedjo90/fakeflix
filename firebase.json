@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "myfakeflix",
+          "appId": "1:1052696179557:android:d6226d70a53bb1bcebe78c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "myfakeflix",
+          "appId": "1:1052696179557:ios:932c94ba12860ef6ebe78c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "myfakeflix",
+          "appId": "1:1052696179557:ios:932c94ba12860ef6ebe78c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "myfakeflix",
+          "configurations": {
+            "android": "1:1052696179557:android:d6226d70a53bb1bcebe78c",
+            "ios": "1:1052696179557:ios:932c94ba12860ef6ebe78c",
+            "macos": "1:1052696179557:ios:932c94ba12860ef6ebe78c",
+            "web": "1:1052696179557:web:e6b30d3b0f22246debe78c",
+            "windows": "1:1052696179557:web:5f27112bc0063678ebe78c"
+          }
+        }
+      }
+    }
+  }
+}

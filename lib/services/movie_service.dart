@@ -1,13 +1,7 @@
-import 'dart:convert';
-
 import 'package:dio/dio.dart';
-import 'package:flutter/material.dart';
 import 'package:movie_explorer/models/genre.dart';
-import 'package:movie_explorer/models/moviedetailsmodel.dart';
 import '../api_config.dart';
-import '../models/moviepreviewmodel.dart';
 
-import 'dart:developer' as developer;
 
 class MovieService {
   static List<Genre>? listOfGenres = [];
